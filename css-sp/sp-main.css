@@ -1,0 +1,222 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+.sp {
+  /* Style adjustments for viewports that meet the condition */
+  /* Style adjustments for high resolution devices */
+}
+.sp html, .sp button, .sp input, .sp select, .sp textarea {
+  color: #222;
+}
+.sp body {
+  font-size: 1em;
+  line-height: 1.4;
+  /*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+}
+.sp ::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+.sp ::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+  /*
+ * A better looking default horizontal rule
+ */
+}
+.sp hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  /*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+}
+.sp img {
+  vertical-align: middle;
+  /*
+ * Remove default fieldset styles.
+ */
+}
+.sp fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  /*
+ * Allow only vertical resizing of textareas.
+ */
+}
+.sp textarea {
+  resize: vertical;
+  /* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+}
+.sp .chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+  /* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+  /* ==========================================================================
+   Helper classes
+   ========================================================================== */
+  /*
+ * Image replacement
+ */
+}
+.sp .ir {
+  background-color: transparent;
+  border: 0;
+  /* IE 6/7 fallback */
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+.sp .ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+  /*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+}
+.sp .hidden {
+  display: none !important;
+  visibility: hidden;
+  /*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+}
+.sp .visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  /*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+}
+.sp .visuallyhidden.focusable:active, .sp .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+  /*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+}
+.sp .invisible {
+  visibility: hidden;
+  /*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+}
+.sp .clearfix:before, .sp .clearfix:after {
+  /* 1 */
+  content: " ";
+  /* 2 */
+  display: table;
+}
+.sp .clearfix:after {
+  clear: both;
+  /*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+}
+.sp .clearfix {
+  *zoom: 1;
+  /* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+}
+@media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+  .sp {
+    /* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+  }
+}
+@media print {
+  .sp * {
+    background: transparent !important;
+    /* Black prints faster: h5bp.com/s */
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  .sp a, .sp a:visited {
+    text-decoration: underline;
+  }
+  .sp a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  .sp abbr[title]:after {
+    content: " (" attr(title) ")";
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+  }
+  .sp .ir a:after, .sp a[href^="javascript:"]:after, .sp a[href^="#"]:after {
+    content: "";
+  }
+  .sp pre, .sp blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  .sp thead {
+    /* h5bp.com/t */
+    display: table-header-group;
+  }
+  .sp tr, .sp img {
+    page-break-inside: avoid;
+  }
+  .sp img {
+    max-width: 100% !important;
+  }
+  @page {
+    margin: 0.5cm;
+  }
+  .sp p, .sp h2, .sp h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  .sp h2, .sp h3 {
+    page-break-after: avoid;
+  }
+}

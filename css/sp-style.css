@@ -1,0 +1,358 @@
+body {
+  margin: 0px; }
+
+.sp {
+  /* Base */
+  /* Helpers */
+  /* Grid */
+  /* Layout */
+  /* Modules */
+  /* State */
+  /* Theme */ }
+  .sp p, .sp h1, .sp h2, .sp h3, .sp h4, .sp li, .sp a {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    text-align: left;
+    line-height: 1.5; }
+  .sp p {
+    margin: 0px; }
+  .sp a {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+    border-bottom: 1px dotted #000;
+    text-decoration: none; }
+  .sp a:hover {
+    border-bottom: 1px solid #000; }
+  .sp h1 {
+    font-size: 44px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 44px;
+    padding-bottom: 20px; }
+  .sp h2 {
+    font-size: 34px;
+    font-weight: 700; }
+  .sp h3 {
+    line-height: 1.7;
+    padding-bottom: 5px;
+    font-size: 24px;
+    font-weight: 800; }
+  .sp h4 {
+    line-height: 18px; }
+  .sp ul {
+    padding-left: 0px;
+    margin-left: 23px; }
+  .sp ul li {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    padding: 0px 0 10px 0px;
+    margin: 10px 0 0 0;
+    line-height: 20px; }
+  .sp ol li {
+    font-size: 16px;
+    font-weight: 800;
+    color: #FFF;
+    font-style: italic;
+    background: url("//oea.s3.amazonaws.com/homepage/images/oea-ol-bg.png") top left no-repeat;
+    min-height: 40px;
+    padding: 9px 0 0 15px;
+    margin: 10px 0px; }
+  .sp ol {
+    list-style-position: inside;
+    list-style-type: none;
+    float: left;
+    margin-left: 10px;
+    padding: 20px 0px;
+    width: 640px; }
+  .sp li p {
+    font-size: 16px;
+    font-weight: 800;
+    font-style: normal; }
+  .sp i {
+    font-weight: normal; }
+  .sp .text-white p, .sp .text-white h1, .sp .text-white h2, .sp .text-white h3, .sp .text-white h4, .sp .text-white h5 {
+    color: #FFF; }
+  .sp .center-text {
+    text-align: center; }
+  .sp .vertical-middle {
+    vertical-align: middle; }
+  .sp .center {
+    margin: 0 auto;
+    display: block; }
+  .sp .float-left {
+    float: left; }
+  .sp .float-right {
+    float: right; }
+  .sp .margin-right {
+    margin-right: 20px; }
+  .sp .margin-left {
+    margin-left: 20px; }
+  .sp .container {
+    width: 1010px;
+    margin: 0px auto;
+    text-align: left; }
+  .sp .unit {
+    float: left;
+    padding: 10px; }
+  .sp .tile {
+    float: left; }
+  .sp .bullet {
+    height: 50px;
+    display: table;
+    padding: 10px; }
+    .sp .bullet img {
+      display: table-cell;
+      vertical-align: middle;
+      margin-right: 10px; }
+    .sp .bullet p {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: left; }
+  .sp .size1of2 {
+    width: 50%; }
+  .sp .size1of3 {
+    width: 33.3333%; }
+  .sp .size2of3 {
+    width: 66.6666%; }
+  .sp .size1of4 {
+    width: 25%; }
+  .sp .size3of4 {
+    width: 75%; }
+  .sp .size1of5 {
+    width: 20%; }
+  .sp .size3of5 {
+    width: 60%; }
+  .sp .size1of6 {
+    width: 16%; }
+  .sp .size5of6 {
+    width: 83.3333%; }
+  .sp .lastUnit {
+    display: table-cell;
+    float: none; }
+  .sp .main-wrapper {
+    width: 980px;
+    margin: 0 auto; }
+  .sp .header img {
+    display: block;
+    margin: 0 auto; }
+  .sp .header h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    line-height: 1.5;
+    margin: 10px 0px; }
+  .sp .footer {
+    margin-bottom: 40px; }
+    .sp .footer p {
+      text-align: center; }
+  .sp .legal {
+    font-size: 12px;
+    font-weight: 400;
+    color: #777;
+    text-align: center;
+    margin-bottom: 0px; }
+  .sp .button {
+    margin: 20px auto 0px auto;
+    display: block;
+    padding: 10px 0px;
+    width: 340px;
+    background: #6AA84F;
+    background: -moz-linear-gradient(top, #6aa84f 0%, #588b43 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6aa84f), color-stop(100%, #588b43));
+    background: -webkit-linear-gradient(top, #6aa84f 0%, #588b43 100%);
+    background: -o-linear-gradient(top, #6aa84f 0%, #588b43 100%);
+    background: -ms-linear-gradient(top, #6aa84f 0%, #588b43 100%);
+    background: linear-gradient(to bottom, #6aa84f 0%, #588b43 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6aa84f', endColorstr='#588b43',GradientType=0 );
+    border: 1px solid #4D7A3B;
+    cursor: pointer;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFF;
+    text-shadow: 0px 1px 0px #000;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px #8AD867, 0px 0px 10px #999; }
+  .sp .button:hover,
+  .sp .button:focus {
+    background: #588B43;
+    background: -moz-linear-gradient(top, #588b43 0%, #6aa84f 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #588b43), color-stop(100%, #6aa84f));
+    background: -webkit-linear-gradient(top, #588b43 0%, #6aa84f 100%);
+    background: -o-linear-gradient(top, #588b43 0%, #6aa84f 100%);
+    background: -ms-linear-gradient(top, #588b43 0%, #6aa84f 100%);
+    background: linear-gradient(to bottom, #588b43 0%, #6aa84f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#588b43', endColorstr='#6aa84f',GradientType=0 ); }
+  .sp .section {
+    padding: 40px 0px 80px 0px;
+    position: relative;
+    width: 100%; }
+  .sp .section-white {
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC; }
+  .sp .section-grey {
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    background: #EEE; }
+  .sp .section-red {
+    background: #6C0020;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000; }
+    .sp .section-red p {
+      font-size: 16px; }
+  .sp .section-black {
+    margin: 0px;
+    background: #1B1B1B; }
+  .sp .quote {
+    padding: 40px 0px 40px 0px;
+    position: relative;
+    width: 100%; }
+    .sp .quote h2 {
+      text-align: center; }
+    .sp .quote img {
+      display: block;
+      margin: 0 auto; }
+    .sp .quote p {
+      text-align: center; }
+  .sp .wide-testimonial {
+    padding: 40px 0px 40px 0px;
+    position: relative;
+    width: 100%; }
+    .sp .wide-testimonial img {
+      display: block;
+      margin: 0 auto;
+      border-radius: 110px; }
+    .sp .wide-testimonial p {
+      font-size: 16px;
+      text-align: justify;
+      width: 100%;
+      float: left; }
+    .sp .wide-testimonial .sig {
+      font-weight: 800;
+      font-style: italic;
+      display: block;
+      text-align: right;
+      margin-top: 20px; }
+    .sp .wide-testimonial .biz {
+      font-size: 14px;
+      display: block;
+      text-align: right; }
+    .sp .wide-testimonial .short {
+      width: 650px; }
+  .sp .small-testimonial {
+    position: relative;
+    margin-top: 20px; }
+    .sp .small-testimonial p {
+      background: #FFF;
+      padding: 20px;
+      border-radius: 3px;
+      margin-left: 181px;
+      text-align: left;
+      font-size: 14px;
+      font-weight: normal;
+      color: #000; }
+    .sp .small-testimonial img {
+      float: left;
+      width: 141px;
+      height: 141px; }
+    .sp .small-testimonial .sig {
+      font-style: italic;
+      color: #E30045; }
+    .sp .small-testimonial .arrow {
+      position: absolute;
+      top: 52px;
+      left: -18px; }
+  .sp .signup-box {
+    width: 580px;
+    margin: 20px auto 0px auto;
+    padding: 40px;
+    background: #FFF;
+    border: 1px solid #CCC;
+    -webkit-box-shadow: inset 0 0 20px #EEE, 0px 3px 5px #EEE;
+    -moz-box-shadow: inset 0 0 20px #eee, 0px 3px 5px #eee;
+    box-shadow: inset 0 0 20px #EEE, 0px 3px 5px #EEE;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px; }
+  .sp .signup-input {
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    float: left;
+    border: 1px solid #CCC;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    line-height: 38px;
+    height: 38px;
+    padding: 0px 36px 0px 10px;
+    width: 232px;
+    margin: 0 10px 0 0;
+    outline: none;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px; }
+  .sp .signup-image-mail {
+    background: url("//oea.s3.amazonaws.com/homepage/images/oea-section-24-emailbg.png") right center no-repeat #eeeeee; }
+  .sp .signup-image-person {
+    background: url("//oea.s3.amazonaws.com/homepage/images/oea-section-24-userbg.png") right center no-repeat #eeeeee; }
+  .sp .signup-button {
+    display: inline-block;
+    margin: 20px auto 0px auto;
+    padding: 10px 0px;
+    width: 340px;
+    background: #6AA84F;
+    background: -moz-linear-gradient(top, #6aa84f 0%, #588b43 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6aa84f), color-stop(100%, #588b43));
+    background: -webkit-linear-gradient(top, #6aa84f 0%, #588b43 100%);
+    background: -o-linear-gradient(top, #6aa84f 0%, #588b43 100%);
+    background: -ms-linear-gradient(top, #6aa84f 0%, #588b43 100%);
+    background: linear-gradient(to bottom, #6aa84f 0%, #588b43 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6aa84f', endColorstr='#588b43',GradientType=0 );
+    border: 1px solid #4D7A3B;
+    cursor: pointer;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFF;
+    text-shadow: 0px 1px 0px #000;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px #8AD867, 0px 0px 10px #999; }
+  .sp .dark-background {
+    background: url("//oea.s3.amazonaws.com/homepage/images/oea-trans-bg.png") top center;
+    width: 440px;
+    padding: 40px; }
+  .sp .checks {
+    background: url("../img/checks.jpg") top left no-repeat; }
+  .sp .nochecks {
+    background: url("../img/nochecks.jpg") top left no-repeat; }
+  .sp .text-red {
+    color: #B10000;
+    text-decoration: underline; }
+  .sp .checks, .sp .nochecks {
+    margin-left: 0px !important; }
+    .sp .checks li, .sp .nochecks li {
+      list-style: inside none;
+      padding-left: 26px; }
+  .sp .checks li {
+    background: url("../img/check.jpg") top left no-repeat; }
+  .sp .nochecks li {
+    background: url("../img/nocheck.jpg") top left no-repeat; }
+  .sp .list-title {
+    margin-bottom: -15px; }
+  .sp .highlight {
+    background-color: yellow; }
+  .sp .blub {
+    list-style-image: url("img/icons/light-bulb.png"); }
